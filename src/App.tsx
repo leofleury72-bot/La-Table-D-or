@@ -1,10 +1,15 @@
 import { Outlet } from "react-router";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 	return (
-		<main>
-			<Outlet />
-		</main>
+		<>
+			<Navbar />
+			<header></header>
+			<main>
+				<Outlet />
+			</main>
+		</>
 	);
 }
 

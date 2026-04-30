@@ -1,0 +1,25 @@
+.navBar {
+	padding: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.navBar-title {
+		font-family: serif;
+		font-weight: 200;
+		color: var(--color-gold-800);
+	}
+	button {
+		background: none;
+		border: none;
+	}
+	.ul_navBar-links {
+		text-align: start;
+		.li_navBar-links {
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: var(--chart-5);
+			}
+		}
+	}
+}

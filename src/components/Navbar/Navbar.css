@@ -16,13 +16,19 @@
 	}
 	button {
 		background: none;
+		display: flex;
+		align-items: center;
 		border: none;
+		cursor: pointer;
 	}
 	.ul_navBar-links {
 		background-color: var(--background);
 		width: 100%;
 		text-align: start;
 		padding: 0 1rem 1rem 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 		top: 86px;
 		left: 0;
 		position: fixed;

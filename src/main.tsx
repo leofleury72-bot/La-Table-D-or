@@ -4,10 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import "./index.css";
 
 import App from "./App";
-import AboutUs from "./pages/AboutUs/AboutUs";
-import Galery from "./pages/Galery/Galery";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Galery from "./components/Galery/Galery";
 import Home from "./pages/Home/Home";
-import Menu from "./pages/Menu/Menu";
+import Menu from "./components/Menu/Menu";
 import Book from "./components/Book/Book";
 
 const router = createBrowserRouter([

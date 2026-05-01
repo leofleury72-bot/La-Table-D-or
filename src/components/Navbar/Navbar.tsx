@@ -47,15 +47,29 @@ function Navbar() {
 					</svg>
 					<ul className="ul_navBar-links">
 						<li className="li_navBar-links">
-							<Link to="/galery" className="">
-								Galery
+							<Link className="navBar-links" to="/">
+								Accueil
 							</Link>
 						</li>
 						<li className="li_navBar-links">
-							<Link to="/about-us">En savoir plus</Link>
+							<Link className="navBar-links" to="/galery">
+								Galerie
+							</Link>
 						</li>
 						<li className="li_navBar-links">
-							<Link to="/menu">Menu</Link>
+							<Link className="navBar-links" to="/about-us">
+								A propos
+							</Link>
+						</li>
+						<li className="li_navBar-links">
+							<Link className="navBar-links" to="/menu">
+								Menu
+							</Link>
+						</li>
+						<li className="li_navBar-links-book">
+							<Link className="navBar-links-book" to="/book">
+								Réserver
+							</Link>
 						</li>
 					</ul>
 				</button>

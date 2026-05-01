@@ -8,15 +8,22 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Galery from "./pages/Galery/Galery";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
+import Book from "./components/Book/Book";
 
 const router = createBrowserRouter([
 	{
 		element: <App />,
 		children: [
-			{ path: "/", element: <Home /> },
-			{ path: "/galery", element: <Galery /> },
-			{ path: "/about-us", element: <AboutUs /> },
-			{ path: "/menu", element: <Menu /> },
+			{
+				path: "/",
+				element: <Home />,
+				children: [
+					{ path: "/galery", element: <Galery /> },
+					{ path: "/about-us", element: <AboutUs /> },
+					{ path: "/menu", element: <Menu /> },
+					{ path: "/book", element: <Book /> },
+				],
+			},
 		],
 	},
 ]);

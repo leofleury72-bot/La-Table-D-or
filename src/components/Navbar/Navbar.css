@@ -1,11 +1,17 @@
 .navBar {
-	padding: 2rem;
+	padding: 1.5rem;
 	display: flex;
 	align-items: center;
+	position: fixed;
+	width: 100%;
+	background-color: var(--background);
+	z-index: 1;
 	justify-content: space-between;
+
+	box-shadow: 0px 0px 6px 0px #00000048;
 	.navBar-title {
-		font-family: serif;
-		font-weight: 200;
+		font-family: var(--font-title);
+		font-weight: 400;
 		color: var(--color-gold-800);
 	}
 	button {
@@ -13,12 +19,39 @@
 		border: none;
 	}
 	.ul_navBar-links {
+		background-color: var(--background);
+		width: 100%;
 		text-align: start;
-		.li_navBar-links {
+		padding: 0 1rem 1rem 1rem;
+		top: 86px;
+		left: 0;
+		position: fixed;
+		.li_navBar-links-book {
+			padding: 0.5rem;
 			list-style: none;
-			a {
+			width: 100%;
+			border-radius: 0.5rem;
+			background-color: var(--color-gold-800);
+			font-size: 1rem;
+			&:hover {
+				background-color: var(--color-gold-700);
+			}
+			.navBar-links-book {
 				text-decoration: none;
-				color: var(--chart-5);
+				color: var(--background);
+			}
+		}
+	}
+	.li_navBar-links {
+		padding: 0.5rem;
+		list-style: none;
+		width: 100%;
+		font-size: 1rem;
+		.navBar-links {
+			text-decoration: none;
+			color: var(--chart-5);
+			&:hover {
+				color: var(--color-gold-800);
 			}
 		}
 	}

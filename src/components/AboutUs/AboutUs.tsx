@@ -1,8 +1,8 @@
 import "./AboutUs.css";
 function AboutUs() {
 	return (
-		<section className="AboutUs-section-text">
-			<div className="AboutUs-div">
+		<section className="section-text">
+			<div className="div-text">
 				<article className="AboutUs-article-title">
 					<h3>À propos</h3>
 					<p>

@@ -1,14 +1,14 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router";
-import "./index.css";
 
-import App from "./App";
-import AboutUs from "./components/AboutUs/AboutUs";
-import Galery from "./components/Galery/Galery";
-import Home from "./pages/Home/Home";
 import Menu from "./components/Menu/Menu";
+import "./index.css";
+import Home from "./pages/Home/Home";
+import Galery from "./components/Galery/Galery";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import { createRoot } from "react-dom/client";
 import Book from "./components/Book/Book";
+import AboutUs from "./components/AboutUs/AboutUs";
+import App from "./App";
 
 const router = createBrowserRouter([
 	{

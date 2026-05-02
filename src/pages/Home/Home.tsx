@@ -1,5 +1,6 @@
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Banner from "../../components/Banner/Banner";
+import Menu from "../../components/Menu/Menu";
 
 function Home() {
 	return (
@@ -9,6 +10,9 @@ function Home() {
 			</section>
 			<section>
 				<AboutUs />
+			</section>
+			<section>
+				<Menu />
 			</section>
 		</>
 	);

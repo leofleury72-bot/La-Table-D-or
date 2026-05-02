@@ -1,8 +1,8 @@
-.AboutUs-section-text {
+.section-text {
 	text-align: center;
 	padding-block: 4rem;
-	.AboutUs-div {
-		padding-inline: 2rem;
+	.div-text {
+		padding-inline: 1rem;
 
 		.AboutUs-article-title {
 			margin-bottom: 4rem;

@@ -1,0 +1,30 @@
+.section-text {
+	.div-text {
+		margin-bottom: 4rem;
+		h3 {
+			font-size: 3rem;
+			font-weight: 600;
+			font-family: var(--font-title);
+			color: var(--color-gold-900);
+			margin-bottom: 1rem;
+		}
+		p {
+			color: var(--color-neutral-600);
+			line-height: 1.7;
+		}
+	}
+	.galery_div-img {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 2rem;
+		padding-inline: 1rem;
+		img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+
+			border-radius: 0.75rem;
+		}
+	}
+}

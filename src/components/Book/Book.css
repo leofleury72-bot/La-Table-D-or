@@ -1,0 +1,89 @@
+.yellow {
+	background-color: var(--color-gold-50);
+	padding-inline: 1rem;
+}
+.Book_div-info {
+	margin-bottom: 4rem;
+	h3 {
+		text-align: left;
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		li {
+			display: flex;
+			gap: 1rem;
+			.book_div-info-text {
+				text-align: left;
+				h4 {
+					font-weight: 500;
+					margin-bottom: 0.225rem;
+				}
+				p {
+					line-height: 1.7;
+				}
+			}
+		}
+		.li-note-details {
+			border-radius: 0.5rem;
+			box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.211);
+			background-color: white;
+			padding: 1.5rem;
+			.book-note-details-h4 {
+				font-weight: 500;
+				margin-bottom: 0.5rem;
+			}
+			.book-note-details-p {
+				line-height: 1.4;
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+.book-form {
+	padding: 2rem;
+	background-color: white;
+	border-radius: 0.75rem;
+	box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.211);
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	input {
+		padding: 0.75rem;
+		border-radius: 0.5rem;
+		border: 1px solid rgba(0, 0, 0, 0.194);
+	}
+	.book-form-date {
+		display: flex;
+		gap: 1rem;
+		input {
+			width: 100%;
+		}
+	}
+	select {
+		border-radius: 0.5rem;
+		padding: 0.75rem;
+		border: 1px solid rgba(0, 0, 0, 0.194);
+	}
+	textarea {
+		border-radius: 0.5rem;
+		padding: 0.75rem;
+		border: 1px solid rgba(0, 0, 0, 0.194);
+	}
+	.submit-form-btn {
+		padding: 0.75rem;
+		border: none;
+		border-radius: 0.5rem;
+		background-color: var(--color-gold-800);
+		color: white;
+		font-size: 1rem;
+		&:hover {
+			cursor: pointer;
+			background-color: var(--color-gold-900);
+		}
+	}
+}
